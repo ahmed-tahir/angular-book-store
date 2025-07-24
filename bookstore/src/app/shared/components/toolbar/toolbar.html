@@ -1,0 +1,21 @@
+
+<mat-toolbar class="my-custom-toolbar">
+  <!-- <button matIconButton class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button> -->
+  <span class="title">Book Store</span>
+  <span class="spacer"></span>
+  <button matIconButton class="example-icon favorite-icon" aria-label="Example icon-button with heart icon"
+    routerLink="/">
+    <mat-icon>home</mat-icon>
+  </button>
+  <button matButton="filled" routerLink="books">All Books</button>
+  <button matButton="filled" routerLink="auth/login">Login</button>
+  <button matButton="filled" routerLink="auth/signup">Signup</button>
+  <button matIconButton class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>favorite</mat-icon>
+  </button>
+  <button matIconButton class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>share</mat-icon>
+  </button>
+</mat-toolbar>

@@ -4,7 +4,6 @@ import { Login } from './components/login/login';
 import { SignUp } from './components/sign-up/sign-up';
 import { ChangePassword } from './components/change-password/change-password';
 import { Auth } from './auth';
-import { AppRoutingModule } from "../app-routing-module";
 import { RouterModule } from '@angular/router';
 import { AuthRoutingModule} from './auth-routing-module';
 
@@ -19,9 +18,8 @@ import { AuthRoutingModule} from './auth-routing-module';
   ],
   imports: [
     CommonModule,
-    AppRoutingModule,
     RouterModule,
     AuthRoutingModule
-]
+  ]
 })
 export class AuthModule { }

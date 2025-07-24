@@ -1,0 +1,17 @@
+/* In your component's CSS or global styles.css */
+.my-custom-toolbar {
+  background-color: #006a6a; /* Green color */
+}
+
+.title {
+  color: white; /* Title color */
+  margin-left: 16px; /* Spacing from the left */
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+mat-icon {
+  color: white; /* Icon color */
+}

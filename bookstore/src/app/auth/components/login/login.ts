@@ -18,16 +18,4 @@ export class Login {
     });
 
   }
-
-  goToSignUp(): void {
-    // Navigate to the signup page
-    this.router.navigate(['/auth/signup']);
-  }
-  goToBookDetails(): void {
-    // Navigate to the book details page with parameters
-    this.router.navigate(['/public/book-details', 1, 'author', 10],
-      {
-        queryParams: { name: 'tahir', id: 100 }
-      });
-  }
 }
